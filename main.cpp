@@ -15,6 +15,7 @@ int main() {
         cout<<a[j]<<" ";
     ofstream out("D:\\qlp\\testcout.txt",ios::app);
     out<<"输出成功!"<<endl;
+    cout<<"The file is modified at 21:23."<<endl;
     cout<<endl;
     cout<<"success!";
     in.close();
